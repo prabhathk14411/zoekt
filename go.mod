@@ -137,3 +137,5 @@ require (
 go 1.22.0
 
 toolchain go1.22.1
+
+replace github.com/sourcegraph/zoekt => github.com/prabhathk14411/zoekt latest
