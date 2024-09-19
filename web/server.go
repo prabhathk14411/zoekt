@@ -203,7 +203,7 @@ func (s *Server) serveSearch(w http.ResponseWriter, r *http.Request) {
 		http.Error(w, err.Error(), http.StatusTeapot)
 		return
 	}
-
+	log.Printf("USER_QUERIED")
 	qvals := r.URL.Query()
 	if qvals.Get("format") == "json" {
 		w.Header().Add("Content-Type", "application/json")
