@@ -138,4 +138,4 @@ go 1.22.0
 
 toolchain go1.22.1
 
-replace github.com/sourcegraph/zoekt => github.com/prabhathk14411/zoekt latest
+replace github.com/sourcegraph/zoekt => github.com/prabhathk14411/zoekt v0.0.0-20240919114025-9a8157f39208
